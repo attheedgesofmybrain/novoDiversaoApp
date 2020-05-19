@@ -1,17 +1,63 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="dark">
+  <div class="banner">
+    <div class="info-banner">
+      <h2>1917</h2>
+      <p>25 de dez de 2019</p>
+      <ion-button color="danger" size="small">Assistir</ion-button>
+      <ion-button color="light" fill="outline" size="small">Episódios</ion-button>
+    </div>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+
+    <h1>Populares</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/5DS1Xh1dxfrR1H0sqATPxkwWFzi.jpg" alt="">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/lFx2i2pg1BoaD7grcpGDyHM1eML.jpg" alt="">
+      </ion-col>
+    </ion-row>
+
+    <h1>Em cartaz</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/1SIlV2p8355FAuKTGje9ZgtXujN.jpg" alt="">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/vC7gB8h8KFTsraAoKsj0haHAljR.jpg" alt="">
+      </ion-col>
+    </ion-row>
+
+    <h1>Próximas estreias</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/mDt3GkephI5yrRsEgLfdo3MYxyj.jpg" alt="">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/fcNbQWAb9DVsL9U9dX4TYi3Ci9L.jpg" alt="">
+      </ion-col>
+    </ion-row>
+
+    <h1>Mais bem avaliados</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/qG59J1Q7rpBc1dvku4azbzcqo8h.jpg" alt="">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg" alt="">
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
 </ion-content>
